@@ -1,0 +1,4 @@
+#
+# Regular cron jobs for the VisuStatus sript
+#
+*/2 *	* * *	root	/usr/local/sbin/visustatus.sh > /dev/null

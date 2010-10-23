@@ -1,0 +1,35 @@
+#################################
+##         VisuStatus          ##
+#################################
+by Karsten Hinz <k.hinz@tu-bs.de>
+oktober 2010
+
+do what ever you want with this project!
+
+
+This Project is to visualize important information.
+VisuStatus collects information of the computer's 
+status - sends them with Send2Parport to an LED-device 
+connected to the parallel port.
+
+
+LED Device
+'''''''''''
+each Bit of the parport is connected with a transistor
+to a LED (try google to find a chematic plan)
+
+
+Send2Parport
+'''''''''''''
+this is an c-program to send the bits to the led-device
+
+
+visustatus.sh
+'''''''''''''
+this script collects the needed information an sends 
+them with Send2Parport
+
+
+checklogin.sh checkping.sh
+''''''''''''''''''''''''''
+needed by visustatus
