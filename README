@@ -26,8 +26,8 @@ this is an c-program to send the bits to the led-device
 
 visustatus.sh
 '''''''''''''
-this script collects the needed information an sends 
-them with Send2Parport
+this script collects information and sends them with 
+Send2Parport to the parallel port
 
 
 checklogin.sh checkping.sh
